@@ -49,29 +49,17 @@ While it may seem proposterous to think that professional video games are anywhe
 
 <p>But before we delve too much into the project, it's important that you understand the basics of how League of Legends works. Similar to a basketball game, a game of League of Legends pits 5 players against 5. Either team wins by destroying the enemy Nexus, a building located at each team's base. Standing in the way of this goal, however, are many different obstacles. Each player chooses one of 128 different "champions." These champions fight each other, gain resource called "gold" (which is obtained by killing enemy champions, towers, or AI-controlled 'minions') to buy items that make them stronger, and push down turrets and inhibitors - buildings that defend the path to the nexus to win. Along the course of the game, there are many other objectives (dragon, baron, neutral monsters), which for purposes of this project can simply be considered "side objectives" that give players more resources to beat the other team. Games usually last between 20 and 45 minutes.</p>
 
+<p>Here is a fantastic, short, 5 minute video that explains all the basics of League of Legends:
+<a href="https://www.youtube.com/watch?v=BGtROJeMPeE" title="What is League of Legends?"><img src="http://img.youtube.com/vi/watch?v=BGtROJeMPeE/0.jpg" alt="What is League?"></a></p>
+
 <p>Here is where our project comes in: we want to find out what the most important aspects of the game are. Obviously the end goal is to take down the enemy Nexus, but there are many different ways to gather resources and strategize; a team can seek to take down towers as quickly as possible, while another team may look to get as many dragon kills as possible to gain enough strength to take down the nexus. A possible analogy one could use is strategy in American football; should a team pass or run more? Should the defense blitz or play a safe zone-coverage? These type of questions are the ones we want to ask in the world of League of Legends.</p>
 
 <p>Why is this important? Basically, we want to know <b> what wins games and when they are won</b>. Along the process of a game, there are several metrics that tell how well a player is doing (examples include how much gold he/she has earned, how many champion kills he has had, etc.). We want to know if there are specific factors that are particularly important in determining which team will win, and at what point in the game these factors are determined. Knowing this information will be vital to team strategy, as it will change the objectives that we focus on, the type of champions we will pick, or the playstyle that we have. Finally, this project will help all League of Legends players understand how "set" games are at certain time periods. Similar to how, say, the winner of a game of basketball is almost 100% determined if one team is 20 points ahead with 5 minutes of game time remaining, we want to know how different metrics at different times in a game of League of Legends can accurately predict which team will win.</p>
 
 <h3>
-<a id="designer-templates" class="anchor" href="#designer-templates" aria-hidden="true"><span class="octicon octicon-link"></span></a>Designer Templates</h3>
+<a id="breaking-down-factors" class="anchor" href="#breaking-down-factors" aria-hidden="true"><span class="octicon octicon-link"></span></a>Breaking Down Factors</h3>
 
-<p>We’ve crafted some handsome templates for you to use. Go ahead and click 'Continue to layouts' to browse through them. You can easily go back to edit your page before publishing. After publishing your page, you can revisit the page generator and switch to another theme. Your Page content will be preserved.</p>
-
-<h3>
-<a id="creating-pages-manually" class="anchor" href="#creating-pages-manually" aria-hidden="true"><span class="octicon octicon-link"></span></a>Creating pages manually</h3>
-
-<p>If you prefer to not use the automatic generator, push a branch named <code>gh-pages</code> to your repository to create a page manually. In addition to supporting regular HTML content, GitHub Pages support Jekyll, a simple, blog aware static site generator. Jekyll makes it easy to create site-wide headers and footers without having to copy them across every page. It also offers intelligent blog support and other advanced templating features.</p>
-
-<h3>
-<a id="authors-and-contributors" class="anchor" href="#authors-and-contributors" aria-hidden="true"><span class="octicon octicon-link"></span></a>Authors and Contributors</h3>
-
-<p>You can <a href="https://github.com/blog/821" class="user-mention">@mention</a> a GitHub username to generate a link to their profile. The resulting <code>&lt;a&gt;</code> element will link to the contributor’s GitHub Profile. For example: In 2007, Chris Wanstrath (<a href="https://github.com/defunkt" class="user-mention">@defunkt</a>), PJ Hyett (<a href="https://github.com/pjhyett" class="user-mention">@pjhyett</a>), and Tom Preston-Werner (<a href="https://github.com/mojombo" class="user-mention">@mojombo</a>) founded GitHub.</p>
-
-<h3>
-<a id="support-or-contact" class="anchor" href="#support-or-contact" aria-hidden="true"><span class="octicon octicon-link"></span></a>Support or Contact</h3>
-
-<p>Having trouble with Pages? Check out our <a href="https://help.github.com/pages">documentation</a> or <a href="https://github.com/contact">contact support</a> and we’ll help you sort it out.</p>
+<p>Using the API provided by Riot Games (the company behind League of Legends), we were able to acquire data from over 20,000 matches. Next, we had to break down each match into variables specific to what we wanted. For purposes of this project, here are the data (and respective descriptions) for each of the factors we chose. </p>
       </section>
     </div>
 
