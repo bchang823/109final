@@ -61,8 +61,9 @@ While it may seem proposterous to think that professional video games are anywhe
 
 <p>Using the API provided by Riot Games (the company behind League of Legends), we were able to acquire data from over 20,000 matches. We wanted to specifically look at how in-game stats change over the course of a game. In other words, how much predictive power does a model have if it only has data from the 10-minute mark? Do certain factors change over time in terms of importance in the game? </p>
 
-<p>In order to answer those questions, we needed to split the data into different times. In other words, we split the data into <a href="https://github.com/10" class="user-mention">@10</a>, <a href="https://github.com/20" class="user-mention">@20</a>, and <a href="https://github.com/30" class="user-mention">@30</a> markers. Once we have data for each of those time markers, we are able to run whatever classifier/model three separate times to compare how relative importances of each factor change over the course of the game. Here are the factors (and respective descriptions) we decided to explore:
-| Name | Description (All differences are blue team - red team)<br>
+<p>In order to answer those questions, we needed to split the data into different times. In other words, we split the data into <a href="https://github.com/10" class="user-mention">@10</a>, <a href="https://github.com/20" class="user-mention">@20</a>, and <a href="https://github.com/30" class="user-mention">@30</a> markers. Once we have data for each of those time markers, we are able to run whatever classifier/model three separate times to compare how relative importances of each factor change over the course of the game. Here are the factors (and respective descriptions) we decided to explore:</p>
+
+<p>| Name | Description (All differences are blue team - red team)<br>
 | :- |-------------:
 |Diffkill| Difference in the number of kills of each team
 |Diffwardp| Difference in the number of wards placed (wards are items that can be used to grab vision of the map)
