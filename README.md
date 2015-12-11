@@ -17,6 +17,8 @@ Process Book Part 4 - Analyzing newdf and finaldf.ipynb
 Libraries Used: numpy, scipy, matplotlib, pandas, seaborn, cassiopeia, pickle, sklearn 
 
 
+Raw Data (Dropbox URL): https://www.dropbox.com/sh/m60puhgnppth2lu/AAAaOZSjO7dll-Kg19pITOoIa?dl=0
+
 Project Website URL:
 
 Screencast Video URL: 
